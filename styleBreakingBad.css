@@ -193,10 +193,8 @@ h6{
 #imghans{
     width: 100%;
     height: 100%;
-    object-fit: cover;   
-    /*tenía muchos inconvenientes para que la imagen ocupara
-    todo el espacio de la celda. Aunque apareciera cubriendo por 
-    completo esa celda, después, al abrir la página en github 
-    no me aparecía la modificación. Por ello, he añadido object-fit. 
+    /* Al aplicar un 100% consigo que cubra completamente
+    la celda, sin embargo, al mostrarme la página en github
+    no se aplica. 
     */
-}
+} 
