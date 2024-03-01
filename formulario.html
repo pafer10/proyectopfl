@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad – ¡Qué comience el juego!</title>
+    <link rel="stylesheet" href="styleBreakingBad.css">
+    <link rel="shortcut icon" href="img/icon.png">
+</head>
+<body id="bodyformulario">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="formulario" id="formulario">
+        <caption><h4>Breaking Bad – ¡Qué comience el juego!</h4></caption>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            Nombre: <input type="text" name="nombre" id="" placeholder="Nicole" size="17px" required>
+            <br>
+            Apellidos: <input type="text" name="apellidos" id="" placeholder="Muñoz López" size="16px" required>
+            <br>
+            D.N.I.: <input type="text" name="D.N.I." id="" placeholder="02479828H" size="12px" required>
+            <br>
+            Correo electrónico: <input type="email" name="email" id="" placeholder="nicole@correo.com" size="17px" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dirección postal</legend>
+            Calle: <input type="text" name="calle" id="" placeholder="C/Falsa" size="14px" required>
+            <br>
+            Número: <input type="number" name="numero" id="" placeholder="123" size="6px" required>
+            <br>
+            Piso: <input type="text" name="piso" id="" placeholder="1ºA" size="7px">
+            <br>
+            Código postal: <input type="number" name="c.p." id="" placeholder="28005" size="1px" required>
+            <br>
+            Ciudad: <input type="text" name="ciudad" id="" placeholder="Madrid" size="13px" required>
+        </fieldset>
+
+        <fieldset>
+            Selecciona tu género: 
+            <input type="radio" name="genero" id="" value="Mujer" checked required>Mujer
+            <input type="radio" name="genero" id="" value="Hombre" required>Hombre
+            <input type="radio" name="genero" id="" value="X" required>Prefiero no decirlo
+        </fieldset>
+
+        <fieldset>
+            Introduce tu fecha de nacimiento:
+            <input type="date" name="calendario" id="" value="nacimiento" required>
+        </fieldset>
+
+        <fieldset id="personaje">
+            Selecciona un personaje:
+            <select name="Personajes" id="" required>
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="6">Otros personajes</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            Comenarios:
+            <textarea name="Comentarios" id="" cols="25" rows="7" minlength="5" maxlength="150" required placeholder="Escribe aquí tus comentarios...">
+            </textarea>
+        </fieldset>
+
+        <fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <input type="file" value="Adjuntar archivos">
+
+
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
